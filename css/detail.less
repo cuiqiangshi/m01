@@ -1,0 +1,50 @@
+@import "main_common";
+
+.detail{
+  p{
+    font-size: .2204rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: .1rem;
+    span{
+      color: #a8a8a8;
+    }
+  }
+}
+
+.intro{
+  p{
+    line-height: .38rem;
+  }
+}
+
+.lp_others{
+  .others_item{
+    margin-bottom: .2rem;
+    ul{
+      .clearfix();
+      li{
+        float: left;
+        margin-right: .22rem;
+        margin-bottom: .2rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        img{
+          width: .25rem;
+          height: .25rem;
+        }
+        &.first{
+          margin-right: .15rem;
+        }
+        &.last{
+          margin-right: 0;
+        }
+        &.point{
+          color: @price_color;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>首页-海南鑫网科技有限公司</title>
+  <meta name="scq" content="石萃强">
+  <meta name="keywords" content="您的网站名称"/>
+  <meta name="description" content="您的网站名称"/>
+  <script>
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'onorientationchange' in window ? 'onorientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          if(clientWidth>=750){
+            docEl.style.fontSize = '100px';
+          }else{
+            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+          }
+        };
+
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+  </script>
+  <link href="css/company_intro.css" rel="stylesheet">
+  <link href="css/search.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="big_container">
+  <div class="header">
+    <div class="back_box" onClick="javascript:history.back(-1);">
+      <img src="img/back.png">
+    </div>
+    <div class="logo"><img src="img/logo.png"></div>
+    <div class="nav">
+      <div class="nav_icon"></div>
+      <div class="nav_bar">
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="lp.html">楼盘</a></li>
+          <li><a href="news.html">资讯</a></li>
+          <li><a href="group_buy.html">团购</a></li>
+          <li><a href="private.html">私人定制</a></li>
+          <li><a href="buy_team.html">购房联盟</a></li>
+          <li><a href="company_intro.html">公司简介</a></li>
+          <li><a href="contact.html">联系方式</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="intro same_pad">
+    <h3>公司简介</h3>
+    <p>
+      海南鑫网科技创始于2001年，专注于网络应用实施服务，包括域名注册、虚拟主机、网站建设与维护、企业邮局、网站推广、网络营销、电子商务、网站优化等。
+    </p>
+    <p>
+      公司自创建以来，始终坚持“智慧启迪未来，团队造就辉煌”的经营理念，拥有一支经验丰富的管理、设计、营销团队，具备科学系统的管理思想和完美设计、营销策略，能够从宏观和微观的层面制定和执行战略。几年来，公司始终坚持想企业之所想，急企业之所急，凭借娴熟的业务、过硬的技术、良好的售后服务，成功地为众多企业单位提供信息化管理和电子商务的解决方案，获得客户的一致好评，在业界树立了良好的口碑。
+    </p>
+    <p>
+      鑫网科技将坚持以科技创新、市场需求为导向，不断在市场的海洋中汲取养分，开拓进取；鑫网人也将凭着强大的技术力量，先进的管理服务平台，全新的服务理念，继续为您提供更专业、更稳定、更便捷的优质服务。
+
+    </p>
+    <p>
+      海南鑫网科技创始于2001年，专注于网络应用实施服务，包括域名注册、虚拟主机、网站建设与维护、企业邮局、网站推广、网络营销、电子商务、网站优化等。
+    </p>
+    <p>
+      公司自创建以来，始终坚持“智慧启迪未来，团队造就辉煌”的经营理念，拥有一支经验丰富的管理、设计、营销团队，具备科学系统的管理思想和完美设计、营销策略，能够从宏观和微观的层面制定和执行战略。几年来，公司始终坚持想企业之所想，急企业之所急，凭借娴熟的业务、过硬的技术、良好的售后服务，成功地为众多企业单位提供信息化管理和电子商务的解决方案，获得客户的一致好评，在业界树立了良好的口碑。
+    </p>
+    <p>
+      鑫网科技将坚持以科技创新、市场需求为导向，不断在市场的海洋中汲取养分，开拓进取；鑫网人也将凭着强大的技术力量，先进的管理服务平台，全新的服务理念，继续为您提供更专业、更稳定、更便捷的优质服务。
+    </p>
+  </div>
+  <div class="footer">
+    <div class="footer_item search">搜索</div>
+    <div class="footer_item lea_msg">留言</div>
+    <div class="footer_item consult">咨询</div>
+    <div class="footer_item map last">地图</div>
+    <div class="search_container">
+      <label class="search_label" for="search_input"></label>
+      <input class="search_input" id="search_input" name="search_txt">
+      <div class="back">返回</div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/index.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>
+

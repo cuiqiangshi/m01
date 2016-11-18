@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>首页-海南鑫网科技有限公司</title>
+  <meta name="scq" content="石萃强">
+  <meta name="keywords" content="您的网站名称"/>
+  <meta name="description" content="您的网站名称"/>
+  <script>
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'onorientationchange' in window ? 'onorientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          if(clientWidth>=750){
+            docEl.style.fontSize = '100px';
+          }else{
+            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+          }
+        };
+
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+  </script>
+  <link href="css/company_intro.css" rel="stylesheet">
+  <link href="css/contact.css" rel="stylesheet">
+  <link href="css/search.css" rel="stylesheet">
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=EjX2RgDi3qEDZV2nYgdmvljT"></script>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="big_container">
+  <div class="header">
+    <div class="back_box" onClick="javascript:history.back(-1);">
+      <img src="img/back.png">
+    </div>
+    <div class="logo"><img src="img/logo.png"></div>
+    <div class="nav">
+      <div class="nav_icon"></div>
+      <div class="nav_bar">
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="lp.html">楼盘</a></li>
+          <li><a href="news.html">资讯</a></li>
+          <li><a href="group_buy.html">团购</a></li>
+          <li><a href="private.html">私人定制</a></li>
+          <li><a href="buy_team.html">购房联盟</a></li>
+          <li><a href="company_intro.html">公司简介</a></li>
+          <li><a href="contact.html">联系方式</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ <div class="contact_box">
+   <div class="contact_msg">
+     <h3>联系方式</h3>
+     <p>公司地址：海口市龙华区龙华路13-1号华典大厦一区9/10层</p>
+     <p>服务热线：0898-66103764 （8:30am-18:00pm）</p>
+   </div>
+   <div class="contact_map" id="map_container"></div>
+ </div>
+  <div class="footer">
+    <div class="footer_item search">搜索</div>
+    <div class="footer_item lea_msg">留言</div>
+    <div class="footer_item consult">咨询</div>
+    <div class="footer_item map last">地图</div>
+    <div class="search_container">
+      <label class="search_label" for="search_input"></label>
+      <input class="search_input" id="search_input" name="search_txt">
+      <div class="back">返回</div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/index.js"></script>
+<script src="js/map.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>
+
+

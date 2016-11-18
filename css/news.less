@@ -1,0 +1,83 @@
+@import "init";
+@import "common";
+.lp_list{
+  margin-top: 1.04rem;
+  height: auto;
+  background-color: #fff;
+  .filter{
+    width: 100%;
+    height: 1.1rem;
+    background-color: #eee;
+    margin-bottom: .17rem;
+    .filter_item{
+      float: left;
+      width: 1.78rem;
+      height: .54rem;
+      position: relative;
+      .active{
+        color: #3399ff;
+      }
+      p{
+        width: 1.78rem;
+        height: .54rem;
+        line-height: .54rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.house_news {
+  height: auto;
+  padding: .2rem .24rem;
+  .title {
+    h1:before {
+      background: url("../img/news_icon.png") .05rem .05rem no-repeat;
+      background-size: 90%;
+    }
+  }
+  .news_item{
+    height: .23rem;
+    line-height: .23rem;
+    .clearfix();
+    margin-bottom: .25rem;
+    .black_point{
+      float: left;
+      width: .08rem;
+      height: .08rem;
+      border-radius: 50%;
+      background-color: #30333a;
+      margin-right: .1rem;
+      margin-top: .11rem;
+    }
+    .txt{
+      float: left;
+      height: .29rem;
+      line-height: .25rem;
+      width: 5.05rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .date{
+      float: right;
+      height: .23rem;
+      line-height: .23rem;
+    }
+  }
+}
+
+.footer_point{
+  width: 4.72rem;
+  height: .38rem;
+  margin: .26rem auto 1.34rem auto;
+  padding-left: .22rem;
+  ul li{
+    float: left;
+    padding: .06rem .13rem;
+    &.active{
+      background-color: @h_f_color;
+      color: #fff;
+    }
+  }
+}

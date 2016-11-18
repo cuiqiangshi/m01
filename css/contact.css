@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #595959;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+body {
+  width: 100%;
+  font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif;
+  font-size: .2409rem;
+}
+.big_container {
+  position: relative;
+  width: 100%;
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #ecf0f1;
+}
+/********header********/
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  max-width: 750px;
+  min-width: 320px;
+  height: 1.04rem;
+  margin: 0 auto;
+  background-color: #3399ff;
+  padding: 0 .24rem;
+}
+.back_box {
+  float: left;
+  width: .41rem;
+  height: .52rem;
+  margin-top: .25rem;
+  margin-right: 1.79rem;
+}
+.cities_box {
+  float: left;
+  width: auto;
+  height: .5rem;
+  line-height: .4rem;
+  position: relative;
+}
+.cities_box .active_city {
+  padding-left: .52rem;
+  font-size: .2109rem;
+  margin-top: .27rem;
+  position: relative;
+  color: #fff;
+}
+.cities_box .active_city:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: .41rem;
+  height: .41rem;
+  background: url("../img/location.png") no-repeat;
+  background-size: 100% 100%;
+}
+.cities_box .city_list {
+  display: none;
+  position: absolute;
+  top: .7rem;
+  left: .24rem;
+  width: 6.57rem;
+  height: auto;
+  background-color: #fff;
+  padding-left: .22rem;
+  margin-right: 1.29rem;
+}
+.cities_box .city_list:before {
+  content: '';
+  position: absolute;
+  top: -0.12rem;
+  left: .42rem;
+  border: .09rem solid transparent;
+  border-bottom-color: #ffffff;
+}
+.cities_box .city_list ul:before,
+.cities_box .city_list ul:after {
+  content: " ";
+  display: table;
+}
+.cities_box .city_list ul:after {
+  clear: both;
+}
+.cities_box .city_list ul li {
+  float: left;
+  width: auto;
+  line-height: .47rem;
+  margin-right: .33rem;
+  font-size: .164rem;
+}
+.cities_box .city_list ul li.close {
+  position: absolute;
+  top: -0.1rem;
+  right: .05rem;
+  width: 14px;
+  height: 14px;
+  line-height: 11px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #ee4433;
+  margin: .15rem 0 0 0;
+  color: #fff;
+}
+.logo {
+  float: left;
+  width: 2.5rem;
+  height: .8rem;
+  margin-top: .1rem;
+}
+.nav {
+  width: .5rem;
+  height: .5rem;
+  float: right;
+  margin-top: .23rem;
+  position: relative;
+}
+.nav .nav_icon {
+  width: .5rem;
+  height: .5rem;
+  background: url("../img/nav.png") no-repeat;
+  background-size: 100% 100%;
+}
+.nav .nav_bar {
+  display: none;
+  width: 1.57rem;
+  height: 4.89rem;
+  position: absolute;
+  top: .76rem;
+  left: -0.83rem;
+  text-align: center;
+  background-color: #3399ff;
+}
+@media screen and (max-width: 338px) {
+  .nav .nav_bar {
+    height: 5.3rem;
+  }
+}
+.nav .nav_bar ul li {
+  margin-bottom: .30rem;
+}
+.nav .nav_bar ul li a {
+  font-size: .21rem;
+  color: #fff;
+}
+/********footer*********/
+.footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+  max-width: 750px;
+  min-width: 320px;
+  height: 1.14rem;
+  margin: 0 auto;
+  background-color: #3399ff;
+  padding: 0 .73rem;
+}
+.footer .footer_item {
+  color: #fff;
+  float: left;
+  margin-top: .13rem;
+  padding-top: .6rem;
+  margin-right: 1.32rem;
+  position: relative;
+}
+@media screen and (max-width: 338px) {
+  .footer .footer_item {
+    margin-right: 1.35rem;
+    padding-top: .55rem;
+  }
+}
+.footer .footer_item.last {
+  margin-right: 0;
+}
+.footer .footer_item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: .5rem;
+  height: .5rem;
+}
+.footer .footer_item.search {
+  background: url("../img/search.png") 0.04rem 0.1rem no-repeat;
+  background-size: 80%;
+}
+.footer .footer_item.lea_msg {
+  background: url("../img/le_msg.png") 0.04rem 0.1rem no-repeat;
+  background-size: 80%;
+}
+.footer .footer_item.consult {
+  background: url("../img/consult.png") 0.04rem 0.1rem no-repeat;
+  background-size: 90%;
+}
+.footer .footer_item.map {
+  background: url("../img/map.png") 0.04rem 0.08rem no-repeat;
+  background-size: 80%;
+}
+.contact_msg {
+  background-color: #fff;
+  padding: .2rem .24rem;
+}
+.contact_msg h3 {
+  color: #3399ff;
+  margin-bottom: .2rem;
+}
+.contact_map {
+  width: 100%;
+  height: 6.7rem;
+}

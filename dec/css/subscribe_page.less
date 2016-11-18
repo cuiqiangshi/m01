@@ -1,0 +1,117 @@
+.bg_black{
+  top:0;
+  width: 100%;
+  height: 100%;
+  max-width: 750px;
+  min-width: 320px;
+  position: fixed;
+  z-index: 100000;
+  background-color: rgba(0,0,0,.5);
+  display: none;
+  .message_box{
+    width: 6rem;
+    height: 3.8rem;
+    display: none;
+    margin:12% auto .7rem auto;
+    background-color: #ffffff;
+    padding: .25rem;
+    &.dec_message_box{
+      height: 2.8rem;
+      .tel_box{
+        margin-top: .2rem;
+      }
+    }
+    .title{
+      width:3.14rem;
+      height: .3rem;
+      line-height: .3rem;
+      font-size: .24rem;
+      color: #3298fd;
+      float: left;
+      margin-bottom: .2rem;
+    }
+    .switch{
+      width: .3rem;
+      height: .3rem;
+      border-radius: 50%;
+      float: right;
+      content: "X";
+      font-size: .24rem;
+    }
+    .submit_box{
+      clear: both;
+      width: 3.52rem;
+      height: 2.13rem;
+      margin: auto;
+      p{
+        font-size: .14rem;
+        line-height: .24rem;
+        span{
+          color: #ee7b40;
+        }
+      }
+      .userName_box{
+        margin-top: .15rem;
+        margin-bottom: .2rem;
+        height: .36rem;
+        label{
+          width: .77rem;
+          height: .36rem;
+          line-height: .36rem;
+          float: left;
+          letter-spacing: .14rem;
+        }
+        .user_input{
+          width: 2.14rem;
+          height: .36rem;
+          //border: .01rem solid #c4c4c4;
+          float: left;
+          input{
+            border: .01rem solid #c4c4c4;
+            outline: none;
+            height: .34rem;
+            width: 2.14rem;
+            padding-left: .1rem;
+          }
+        }
+      }
+      .tel_box{
+        margin-bottom: .2rem;
+        height: .46rem;
+        label{
+          width: .77rem;
+          height: .36rem;
+          line-height: .36rem;
+          float: left;
+        }
+        .tel_input{
+          width: 2.14rem;
+          height: .46rem;
+          float: left;
+          input{
+            border: .01rem solid #c4c4c4;
+            outline: none;
+            height: .34rem;
+            width: 2.12rem;
+            padding-left: .1rem;
+          }
+        }
+      }
+      .submit_btn{
+        width:2.7rem;
+        height: .36rem;
+        margin: 0 auto;
+        button{
+          width: 100%;
+          height: 100%;
+          background-color: #3298fd;
+          font-size: .16rem;
+          font-weight: bold;
+          color: #ffffff;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+  }
+}

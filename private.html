@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>首页-海南鑫网科技有限公司</title>
+  <meta name="scq" content="石萃强">
+  <meta name="keywords" content="您的网站名称"/>
+  <meta name="description" content="您的网站名称"/>
+  <script>
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'onorientationchange' in window ? 'onorientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          if(clientWidth>=750){
+            docEl.style.fontSize = '100px';
+          }else{
+            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+          }
+        };
+
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+  </script>
+  <link href="css/private_ordering.css" rel="stylesheet">
+  <link href="css/search.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="big_container">
+  <div class="header">
+    <div class="back_box" onClick="javascript:history.back(-1);">
+      <img src="img/back.png">
+    </div>
+    <div class="logo"><img src="img/logo.png"></div>
+    <div class="nav">
+      <div class="nav_icon"></div>
+      <div class="nav_bar">
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="lp.html">楼盘</a></li>
+          <li><a href="news.html">资讯</a></li>
+          <li><a href="group_buy.html">团购</a></li>
+          <li><a href="private.html">私人定制</a></li>
+          <li><a href="buy_team.html">购房联盟</a></li>
+          <li><a href="company_intro.html">公司简介</a></li>
+          <li><a href="contact.html">联系方式</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="private_title">
+    <h1>填写您的购房方案</h1>
+  </div>
+  <div class="filter_list">
+    <div class="cities choose_item">
+      <h5>意向城市</h5>
+      <div class="square_list list_item">
+        <ul>
+          <li class="active"><i></i>海口</li>
+          <li><i></i>三亚</li>
+          <li><i></i>琼海</li>
+          <li><i></i>文昌</li>
+          <li><i></i>儋州</li>
+          <li><i></i>澄迈</li>
+          <li class="last"><i></i>万宁</li>
+          <li><i></i>陵水</li>
+          <li><i></i>临高</li>
+          <li><i></i>定安</li>
+          <li><i></i>保亭</li>
+          <li class="last"><i></i>五指山</li>
+        </ul>
+      </div>
+    </div>
+    <div class="house_type choose_item">
+      <h5>房屋类型</h5>
+      <div class="square_list list_item">
+        <ul>
+          <li class="active"><i></i>住宅</li>
+          <li><i></i>养生社区</li>
+          <li><i></i>花园洋房</li>
+          <li><i></i>海景房</li>
+          <li class="last"><i></i>河（江）景房</li>
+          <li><i></i>温泉社区</li>
+          <li><i></i>酒店式公寓</li>
+          <li><i></i>商铺</li>
+          <li><i></i>别墅</li>
+          <li class="last"><i></i>公寓</li>
+        </ul>
+      </div>
+    </div>
+    <div class="like_type choose_item">
+      <h5>意向户型</h5>
+      <div class="circle_list list_item">
+        <ul>
+          <li class="active"><i></i>一房户型</li>
+          <li><i></i>二房户型</li>
+          <li><i></i>三房户型</li>
+          <li><i></i>四房户型</li>
+          <li class="last"><i></i>五房户型</li>
+        </ul>
+      </div>
+    </div>
+    <div class="size choose_item">
+      <h5>置业面积</h5>
+      <div class="circle_list list_item">
+        <ul>
+          <li class="active"><i></i>50㎡以内</li>
+          <li><i></i>50-70㎡</li>
+          <li><i></i>70-100㎡</li>
+          <li><i></i>100-130㎡</li>
+          <li><i></i>130-160㎡</li>
+          <li class="last"><i></i>160-200㎡</li>
+        </ul>
+      </div>
+    </div>
+    <div class="price choose_item">
+      <h5>预算价位</h5>
+      <div class="to_price_box">
+        <div class="default">预算价格</div>
+        <div class="arrow_down_up"></div>
+        <div class="price_list">
+          <ul>
+            <li>60-80万元</li>
+            <li>80-100万元</li>
+            <li>100-120万元</li>
+            <li>120-140万元</li>
+            <li>140-160万元</li>
+            <li>160-180万元</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="decoration choose_item">
+      <h5>装修要求</h5>
+      <div class="circle_list list_item">
+        <ul>
+          <li class="active"><i></i>毛坯</li>
+          <li><i></i>简单装修</li>
+          <li><i></i>中档装修</li>
+          <li><i></i>精装</li>
+        </ul>
+      </div>
+    </div>
+    <div class="others choose_item">
+      <h5>附加要求</h5>
+      <div class="other_content">
+        <label for="other_txt"></label>
+        <textarea id="other_txt" name="other_txt"></textarea>
+      </div>
+    </div>
+    <div class="contact">
+      <h5>联系方式</h5>
+      <div class="input_box">
+        <div class="user_box msg_box">
+          <label for="user_name">您的姓名</label>
+          <input type="text" id="user_name" name="user_name" placeholder="请输入您的姓名">
+        </div>
+        <div class="gender_box">
+          <ul>
+            <li>您的性别</li>
+            <li class="gender active" id="male"><i></i>男</li>
+            <li class="gender" id="female"><i></i>女</li>
+          </ul>
+        </div>
+        <div class="tel_box msg_box">
+          <label for="mobile_number">联系电话</label>
+          <input type="text" id="mobile_number" name="mobile_number" placeholder="请输入您的电话">
+        </div>
+      </div>
+    </div>
+    <div class="btn_box">
+      <button type="submit" id="sub_btn">提交您的购房需求</button>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_item search">搜索</div>
+    <div class="footer_item lea_msg">留言</div>
+    <div class="footer_item consult">咨询</div>
+    <div class="footer_item map last">地图</div>
+    <div class="search_container">
+      <label class="search_label" for="search_input"></label>
+      <input class="search_input" id="search_input" name="search_txt">
+      <div class="back">返回</div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/index.js"></script>
+<script src="js/private_ordering.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>
+

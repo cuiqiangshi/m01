@@ -1,0 +1,148 @@
+.bg_black {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 750px;
+  min-width: 320px;
+  position: fixed;
+  z-index: 100000;
+  background-color: rgba(0, 0, 0, .5);
+  display: none;
+  .message_box {
+    width: 6rem;
+    height: 4.1rem;
+    display: none;
+    margin: 12% auto .7rem auto;
+    background-color: #ffffff;
+    padding: .25rem;
+    &.dec_message_box {
+      height: 3.3rem;
+      .tel_box {
+        margin-top: .2rem;
+      }
+    }
+    .title {
+      width: 3.14rem;
+      height: .3rem;
+      line-height: .3rem;
+      font-size: .24rem;
+      color: #3298fd;
+      float: left;
+      margin-bottom: .2rem;
+    }
+    .switch {
+      width: .3rem;
+      height: .3rem;
+      border-radius: 50%;
+      float: right;
+      content: "X";
+      font-size: .24rem;
+    }
+    .submit_box {
+      clear: both;
+      width: 3.62rem;
+      height: 2.13rem;
+      margin: auto;
+      p {
+        font-size: .24rem;
+        line-height: .24rem;
+        margin-bottom: .15rem;
+        span {
+          color: #ee7b40;
+        }
+      }
+      .userName_box {
+        padding-top: .15rem;
+        margin-bottom: .4rem;
+        height: .46rem;
+        label {
+          width: .87rem;
+          height: .46rem;
+          line-height: .46rem;
+          float: left;
+          font-size: .25rem;
+          letter-spacing: .14rem;
+          margin-right: .1rem;
+        }
+        .user_input {
+          padding-top: .03rem;
+          width: 2.14rem;
+          height: .46rem;
+          //border: .01rem solid #c4c4c4;
+          float: left;
+          input {
+            //border: .01rem solid #c4c4c4;
+            outline: none;
+            height: .44rem;
+            width: 2.14rem;
+            padding-left: .1rem;
+          }
+        }
+      }
+      .tel_box {
+        margin-bottom: .4rem;
+        height: .46rem;
+        label {
+          width: .87rem;
+          height: .46rem;
+          line-height: .6rem;
+          float: left;
+          font-size: .25rem;
+          padding-top: .03rem;
+          margin-right: .1rem;
+        }
+        .tel_input {
+          width: 2.14rem;
+          height: .48rem;
+          float: left;
+          padding-top: .05rem;
+          input {
+            //border: .01rem solid #c4c4c4;
+            outline: none;
+            height: .47rem;
+            width: 2.12rem;
+            padding-left: .1rem;
+          }
+        }
+      }
+      .submit_btn {
+        width: 2.7rem;
+        height: .46rem;
+        margin:  auto;
+        button {
+          width: 100%;
+          height: 100%;
+          background-color: #3298fd;
+          font-size: .26rem;
+          font-weight: bold;
+          color: #ffffff;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+  }
+  .big_img {
+    width: 6rem;
+    height: 4.5rem;
+    display: none;
+    margin: 42% auto .7rem auto;
+    padding: .25rem;
+    padding-right: 0;
+    background-color: #fff;
+    position: relative;
+    img {
+      width: 95%;
+      margin: auto;
+      float: left;
+    }
+    .switch {
+      width: .3rem;
+      height: .3rem;
+      font-size: .24rem;
+      position: absolute;
+      right: -.06rem;
+      top: .1rem;
+    }
+  }
+}

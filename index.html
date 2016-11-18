@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>首页-海南鑫网科技有限公司</title>
+  <meta name="scq" content="石萃强">
+  <meta name="keywords" content="您的网站名称"/>
+  <meta name="description" content="您的网站名称"/>
+  <script>
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'onorientationchange' in window ? 'onorientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          if(clientWidth>=750){
+            docEl.style.fontSize = '100px';
+          }else{
+            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+          }
+        };
+
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+  </script>
+  <link href="css/index.css" rel="stylesheet">
+  <link href="css/search.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="big_container">
+  <div class="header">
+    <div class="logo"><img src="img/logo.png"></div>
+    <div class="nav">
+      <div class="nav_icon"></div>
+      <div class="nav_bar">
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="lp.html">楼盘</a></li>
+          <li><a href="news.html">资讯</a></li>
+          <li><a href="group_buy.html">团购</a></li>
+          <li><a href="private.html">私人定制</a></li>
+          <li><a href="buy_team.html">购房联盟</a></li>
+          <li><a href="company_intro.html">公司简介</a></li>
+          <li><a href="contact.html">联系方式</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--banner-->
+  <div class="addWrap">
+    <div class="swipe" id="mySwipe">
+      <div class="swipe-wrap">
+        <div><a href="javascript:;"><img class="img-responsive" src="img/index_02.jpg"/></a></div>
+        <div><a href="javascript:;"><img class="img-responsive" src="img/index_02.jpg"/></a></div>
+        <div><a href="javascript:;"><img class="img-responsive" src="img/index_02.jpg"/></a></div>
+      </div>
+    </div>
+
+    <ul id="position">
+      <li class="cur"></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div><!--/addWrap-->
+  <div class="icon_container normal_size">
+    <div class="icon_list icon_item">
+      <ul>
+        <li class="lp"><i></i><a href="lp.html">楼盘</a></li>
+        <li class="news"><i></i><a href="news.html">资讯</a></li>
+        <li class="group_buy"><i></i><a href="group_buy.html">团购</a></li>
+        <li class="free"><i></i><a href="#">独享优惠</a></li>
+      </ul>
+    </div>
+    <div class="icon_list icon_item">
+      <ul>
+        <li class="private"><i></i><a href="private.html">私人定制</a></li>
+        <li class="buy_team"><i></i><a href="buy_team.html">购房联盟</a></li>
+        <li class="company_intro"><i></i><a href="company_intro.html">公司简介</a></li>
+        <li class="contact"><i></i><a href="contact.html">联系方式</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="rush_buy normal_size">
+    <div class="title">
+      <h1>抢购</h1>
+      <div class="right_box">
+        <a href="group_buy.html"><div class="arrow_right">更多<img src="img/arrow_right.png"></div></a>
+      </div>
+    </div>
+    <div class="img_row">
+      <a href="group_buy_detail.html">
+        <div class="img_rol">
+          <img src="img/index_14.jpg">
+          <div class="txt">石梅庄</div>
+          <div class="price">￥8800元/㎡</div>
+          <div class="right_box">
+            <div class="timer_box">
+              <strong>团购结束:</strong>
+              <strong class="show_day timer_item"><span>00</span>天</strong>
+              <strong class="show_hour timer_item"> <span>00</span>时</strong>
+              <strong class="show_minute timer_item"><span>00</span>分</strong>
+              <strong class="show_second timer_item"><span>00</span>秒</strong>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="group_buy_detail.html">
+        <div class="img_rol last">
+          <img src="img/index_16.jpg">
+          <div class="txt">后海温泉酒店</div>
+          <div class="price">￥7800元/㎡</div>
+          <div class="right_box">
+            <div class="timer_box">
+              <strong>团购结束:</strong>
+              <strong class="show_day timer_item"><span>00</span>天</strong>
+              <strong class="show_hour timer_item"> <span>00</span>时</strong>
+              <strong class="show_minute timer_item"><span>00</span>分</strong>
+              <strong class="show_second timer_item"><span>00</span>秒</strong>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="hot_house normal_size">
+    <div class="title">
+      <h1>热销楼盘</h1>
+      <div class="right_box">
+        <a href="lp.html"><div class="arrow_right">更多<img src="img/arrow_right.png"></div></a>
+      </div>
+    </div>
+    <div class="img_row">
+      <a href="main.html">
+        <div class="img_rol">
+          <img src="img/index_08.jpg">
+          <div class="txt">保利中央海岸</div>
+          <div class="price">￥8800元/㎡</div>
+        </div>
+      </a>
+      <a href="main.html">
+        <div class="img_rol last">
+          <img src="img/index_10.jpg">
+          <div class="txt">富力红树湾</div>
+          <div class="price">￥5800元/㎡</div>
+        </div>
+      </a>
+    </div>
+    <div class="img_row">
+      <a href="main.html">
+        <div class="img_rol">
+          <img src="img/index_14.jpg">
+          <div class="txt">石梅庄</div>
+          <div class="price">￥8800元/㎡</div>
+        </div>
+      </a>
+      <a href="main.html">
+        <div class="img_rol last">
+          <img src="img/index_16.jpg">
+          <div class="txt">后海温泉酒店</div>
+          <div class="price">￥7800元/㎡</div>
+        </div>
+      </a>
+    </div>
+    <div class="img_row">
+     <a href="main.html">
+       <div class="img_rol">
+         <img src="img/index_19.jpg">
+         <div class="txt">长岛蓝湾</div>
+         <div class="price">￥9800元/㎡</div>
+       </div>
+     </a>
+     <a href="main.html">
+       <div class="img_rol last">
+         <img src="img/index_10.jpg">
+         <div class="txt">椰岛小镇</div>
+         <div class="price">￥10800元/㎡</div>
+       </div>
+     </a>
+    </div>
+  </div>
+  <div class="house_news normal_size">
+    <div class="title">
+      <h1>楼盘资讯</h1>
+      <div class="right_box">
+        <a href="news.html">
+          <div class="arrow_right">更多<img src="img/arrow_right.png"></div>
+        </a>
+      </div>
+    </div>
+    <a href="news_detail.html">
+      <div class="news_item">
+        <div class="black_point"></div>
+        <div class="txt">图看海口各大棚改片区改造前后变化</div>
+        <div class="date">2016-10-20</div>
+      </div>
+    </a>
+   <a href="news_detail.html">
+     <div class="news_item">
+       <div class="black_point"></div>
+       <div class="txt">被征收人购买存量商品房可获补贴</div>
+       <div class="date">2016-10-20</div>
+     </div>
+   </a>
+   <a href="news_detail.html">
+     <div class="news_item">
+       <div class="black_point"></div>
+       <div class="txt">解决房价问题的关键在于调整住房制度</div>
+       <div class="date">2016-10-20</div>
+     </div>
+   </a>
+   <a href="news_detail.html">
+     <div class="news_item">
+       <div class="black_point"></div>
+       <div class="txt">购房无压力 比三亚更适合养老养生的楼盘在这里</div>
+       <div class="date">2016-10-20</div>
+     </div>
+   </a>
+   <a href="news_detail.html">
+     <div class="news_item">
+       <div class="black_point"></div>
+       <div class="txt">海南博鳌机场航站区国际航站楼年底有望竣工</div>
+       <div class="date">2016-10-20</div>
+     </div>
+   </a>
+    <a href="news_detail.html">
+      <div class="news_item">
+        <div class="black_point"></div>
+        <div class="txt">海南颁证地级市比例达75%不动产登记超全国</div>
+        <div class="date">2016-10-20</div>
+      </div>
+    </a>
+  </div>
+  <div class="footer">
+    <div class="footer_item search">搜索</div>
+    <div class="footer_item lea_msg">留言</div>
+    <div class="footer_item consult">咨询</div>
+    <div class="footer_item map last">地图</div>
+    <div class="search_container">
+      <label class="search_label" for="search_input"></label>
+      <input class="search_input" id="search_input" name="search_txt">
+      <div class="back">返回</div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/index.js"></script>
+<script src="js/timer.js"></script>
+<script src="js/search.js"></script>
+<script src='js/hhSwipe.js' type="text/javascript"></script>
+<script type="text/javascript">
+  var bullets = document.getElementById('position').getElementsByTagName('li');
+
+  var banner = Swipe(document.getElementById('mySwipe'), {
+    auto: 3000,
+    continuous: true,
+    disableScroll:false,
+    callback: function(pos) {
+      var i = bullets.length;
+      while (i--) {
+        bullets[i].className = ' ';
+      }
+      bullets[pos].className = 'cur';
+    }
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+@import "main_common";
+
+.input_team{
+  width: 100%;
+  height: .46rem;
+  line-height: .36rem;
+  outline: none;
+  //border: .01rem solid #b2b2b2;
+  padding-left: .1rem;
+  margin-bottom: .17rem;
+}
+.gender{
+  float: left;
+  height: .17rem;
+  margin-right: .3rem;
+  &:after{
+    content: '';
+    width: .2rem;
+    height: .2rem;
+    margin-left: .1rem;
+    display: inline-block;
+    background: url("../img/no_cheched.png") no-repeat;
+    background-size: 100%;
+  }
+  &.checked{
+    &:after{
+      background: url("../img/cheched.png") no-repeat;
+      background-size: 100%;
+    }
+  }
+}
+.btn{
+  width: 100%;
+  height: .57rem;
+  background-color: @h_f_color;
+  clear: both;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin-top: .4rem;
+}

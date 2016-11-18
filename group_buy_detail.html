@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>首页-海南鑫网科技有限公司</title>
+  <meta name="scq" content="石萃强">
+  <meta name="keywords" content="您的网站名称"/>
+  <meta name="description" content="您的网站名称"/>
+  <script>
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'onorientationchange' in window ? 'onorientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          if(clientWidth>=750){
+            docEl.style.fontSize = '100px';
+          }else{
+            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+          }
+        };
+
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+  </script>
+  <link href="css/group_buy_detail.css" rel="stylesheet">
+  <link href="css/search.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="big_container">
+  <div class="header">
+    <div class="back_box" onClick="javascript:history.back(-1);">
+      <img src="img/back.png">
+    </div>
+    <div class="logo"><img src="img/logo.png"></div>
+    <div class="nav">
+      <div class="nav_icon"></div>
+      <div class="nav_bar">
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="lp.html">楼盘</a></li>
+          <li><a href="news.html">资讯</a></li>
+          <li><a href="group_buy.html">团购</a></li>
+          <li><a href="private.html">私人定制</a></li>
+          <li><a href="buy_team.html">购房联盟</a></li>
+          <li><a href="company_intro.html">公司简介</a></li>
+          <li><a href="contact.html">联系方式</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="main same_pad">
+    <img src="img/main_03.jpg" alt="">
+    <div class="right_txt">
+      <p>龙光海云天<img src="img/shangqiao_03.jpg"></p>
+      <p>均价：<span>￥9200元/㎡</span></p>
+      <p>类型：养老居所  投资地产  花园洋房</p>
+      <p>电话：0898-66103764</p>
+      <p>地址：海口市 秀英区 滨海大道长滨路南进600米</p>
+      <div class="timer_box">
+        <span>距离报名结束:</span>
+        <strong class="show_day timer_item"><span>00</span>天</strong>
+        <strong class="show_hour timer_item"> <span>00</span>时</strong>
+        <strong class="show_minute timer_item"><span>00</span>分</strong>
+        <strong class="show_second timer_item"><span>00</span>秒</strong>
+      </div>
+    </div>
+    <div style="clear: both"></div>
+  </div>
+  <div class="sign_house same_pad">
+    <h3>报名看房</h3>
+    <p><span>咨询热线：0898-66103764</span>全程免费接机、住宿安排</p>
+    <form action="#" method="post">
+      <div class="userName">
+        <label class="user_label" for="userName"></label>
+        <input class="input_team" id="userName" type="text" name="userName" placeholder="请输入姓名">
+      </div>
+      <div class="tel">
+        <label class="tel_label" for="tel"></label>
+        <input class="input_team" id="tel" type="number" name="tel" placeholder="请输入手机号码">
+      </div>
+      <div class="gender male checked">女士</div>
+      <div class="gender female">先生</div>
+      <button class="btn" type="submit">免费报名</button>
+    </form>
+  </div>
+  <div class="free same_pad">
+    <h3>项目介绍</h3>
+    <p>
+      海航豪庭南苑是“百万方中央豪宅区”——海航豪庭的南组团，是中国房产50强海航地产继国兴城、海航豪庭·北苑之后，在国兴大道推出的又一高端住宅。海航豪庭·南苑共分5期开发，总占地约17万平，总建面70万平。海航豪庭·南苑坐拥CBD都会繁华资源，与省委、省政府同列海口权力中轴，奢享海航集团600亿顶级资源配套。项目周边市政道路四通八达，地处海口未来交通大动脉“海秀快速路”东侧起点，出行非常方便，离海口美兰机场全程约24.1公里；离动车站约4.6公里；离海口东汽车站约3.9公里，项目地处海口几大商圈核心，东临国兴商圈、北临海秀商圈，南临龙昆南生活圈，西侧通过海秀快速路链接国贸商圈、西海岸商圈。
+    </p>
+  </div>
+  <div class="lp_active same_pad">
+    <h3>温馨提示</h3>
+    <p>1.本次团购用户免费报名参与；</p>
+    <p>2.了解更多团购详情请拨打客服热线：0898-66103764；</p>
+    <p>3.参与者请填写真实有效的联系方式，方便客服人员跟踪服务；</p>
+    <p>4.本次活动最终解释权归鑫网科技所有。</p>
+  </div>
+
+  <div class="footer">
+    <div class="footer_item search">搜索</div>
+    <div class="footer_item lea_msg">留言</div>
+    <div class="footer_item consult">咨询</div>
+    <div class="footer_item map last">地图</div>
+    <div class="search_container">
+      <label class="search_label" for="search_input"></label>
+      <input class="search_input" id="search_input" name="search_txt">
+      <div class="back">返回</div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/index.js"></script>
+<script src="js/search.js"></script>
+<script>
+  $('.gender').click(function(){
+    $(this).addClass('checked').siblings('.gender').removeClass('checked')
+  });
+
+  function TimerEmp(config) {
+    this.day = 0;
+    this.hour = 0;
+    this.minute = 0;
+    this.second = 0;
+    this.day_show = config.day_show;
+    this.hour_show = config.hour_show;
+    this.minute_show = config.minute_show;
+    this.second_show = config.second_show;
+    this.time_item = config.time_item;
+    this.endTime = config.endTime;
+    this.now = '';
+    this.intNumber = '';
+
+    this.timeLength = function(){
+      this.endTime = new Date(this.endTime).getTime();
+      this.now = new Date().getTime();
+      this.intNumber = (this.endTime -this.now)/1000;
+    };
+
+    this.timer = function(){
+      window.setInterval(function () {
+        this.timeLength();
+        if (this.intNumber >= 0) {
+          this.day = Math.floor(this.intNumber / (60 * 60 * 24));
+          this.hour = Math.floor(this.intNumber / (60 * 60)) - (this.day * 24);
+          this.minute = Math.floor(this.intNumber / 60) - (this.day * 24 * 60) - (this.hour * 60);
+          this.second = Math.floor(this.intNumber) - (this.day * 24 * 60 * 60) - (this.hour * 60 * 60) - (this.minute * 60);
+          if (this.minute <= 9){
+            this.minute = '0' + this.minute;
+          }
+          if (this.second <= 9){
+            this.second = '0' + this.second;
+          }
+          $(this.day_show).html('<span>'+this.day+'</span>天');
+          $(this.hour_show).html('<span>'+this.hour + '</span>时');
+          $(this.minute_show).html('<span>'+this.minute + '</span>分');
+          $(this.second_show).html('<span>'+this.second + '</span>秒');
+          this.intNumber--;
+        }else {
+          $(this.time_item).html('团购已过期')
+        }
+
+      }.bind(this), 1000);
+    }
+  }
+  $(document).ready(function(){
+    var config_group_detail = {
+      day_show : '.main .show_day',
+      hour_show : '.main .show_hour',
+      minute_show : '.main .show_minute',
+      second_show : '.main .show_second',
+      time_item : '.main .timer_box',
+      endTime : '2016-12-16T19:20:30'
+    };
+    var timer_group_detail = new TimerEmp(config_group_detail);
+    timer_group_detail.timer();
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $('.search').click(function(){
+    $('.footer_item').hide();
+    $('.footer').css('padding','0');
+    $('.search_container').show();
+  });
+  $('.back').click(function(){
+    $('.search_container').hide();
+    $('.footer').css('paddingLeft','.74rem');
+    $('.footer_item').show();
+  });
+});
